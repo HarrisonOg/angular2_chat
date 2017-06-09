@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import {Observable} from 'rxjs/Observable';
-import {AllUserData} from '../../../shared/to/all-user-data';
-import {Http} from '@angular/http';
+import { Observable } from 'rxjs/Observable';
+import { AllUserData } from '../../../shared/to/all-user-data';
+import { Http } from '@angular/http';
+import 'rxjs/Rx';
 
 @Injectable()
 export class ThreadsService {
