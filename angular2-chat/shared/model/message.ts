@@ -1,4 +1,4 @@
-
+// Model for the Message
 export interface Message {
   id: number;
   threadId: number;
